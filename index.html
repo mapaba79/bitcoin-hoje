@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitcoin Hoje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Bitcoin Hoje</h1>
+    <button onclick="toggleDarkMode()">Modo Escuro</button>
+  </header>
+
+  <main>
+    <section id="cotacao">
+      <h2>Preço do Bitcoin</h2>
+      <p>Preço Atual: <span id="preco-btc">Carregando...</span></p>
+    </section>
+
+    <section id="simulador">
+      <h2>Simulador de Compra</h2>
+      <input type="number" id="valor" placeholder="Digite um valor em R$">
+      <button onclick="calcularBTC()">Calcular</button>
+      <p id="resultado"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Bitcoin Hoje. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
