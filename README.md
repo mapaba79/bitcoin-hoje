@@ -3,9 +3,8 @@
 Este é um site que exibe a **cotação em tempo real do Bitcoin**, além de um **simulador de investimento**.  
 
 ## 📌 Funcionalidades  
-✅ Cotação do Bitcoin atualizada automaticamente via a API do site CoinGecko.com.  
-✅ Simulador que calcula quantos BTC você pode comprar com um valor em reais.  
-✅ Modo escuro para uma experiência mais agradável.  
+✅ Cotação do Bitcoin atualizada automaticamente via a API do site Coingecko.com.  
+✅ Simulador que calcula quantos BTC você pode comprar com um valor em reais. 
 
 ## 🚀 Como Usar  
 1. Abra o arquivo `index.html` no navegador.  
