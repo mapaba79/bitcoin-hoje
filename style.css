@@ -4,7 +4,8 @@ html, body {
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  background-color: #f4f4f4;
+  background-color: #e4e2e2;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 main {
@@ -26,7 +27,8 @@ button {
   border: none;
   padding: 10px 15px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 15px;
+  transition: background 0.3s;
 }
 
 button:hover {
@@ -35,10 +37,20 @@ button:hover {
 
 section {
   padding: 20px;
-  margin: 20px;
+  margin: 20px auto;
   background: white;
-  border-radius: 5px;
+  border-radius: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 footer {
@@ -60,4 +72,10 @@ footer {
 
 .dark-mode header, .dark-mode footer {
   background: #000;
+}
+
+.dark-mode input {
+  background: #333;
+  color: white;
+  border: 1px solid #777;
 }
