@@ -20,4 +20,4 @@ Este é um site que exibe a **cotação em tempo real do Bitcoin**, além de um 
 ## 📦 Como Rodar Localmente  
 1. Faça o download ou clone este repositório:  
    ```sh
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/mapaba79/nome-do-repositorio.git
